@@ -17,3 +17,22 @@ nav ul li {
   font-size: 30px;
   padding-left: 10px;
 }
+
+#contactform {
+  text-align: center;
+}
+
+#contactform input {
+  width: 50%;
+}
+
+.contacttitle {
+  text-align: center;
+}
+
+#commentssection {
+  height: 300px;
+  vertical-align: top;
+  width: 50%;
+  resize: none;
+}
