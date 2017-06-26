@@ -1,6 +1,12 @@
 body {
+  background-image: linear-gradient(90deg, red, orange);
+  background-size: cover;
   margin: 0;
   padding: 0;
+}
+#logo {
+  background-image: linear-gradient(90deg, orange, red);
+  background-size: cover;
 }
 nav {
   display: inline-block;
@@ -12,8 +18,24 @@ nav {
   opacity: 0.8;
   text-align: center;
 }
+nav ul {
+  margin: 0;
+}
 nav ul li {
-  display: inline;
+  display: inline-block;
+  width: 20%;
   font-size: 30px;
-  padding-left: 10px;
+  padding: 10px;
+}
+nav ul li a:link {
+  color: pink;
+}
+nav ul li a:visited {
+  color: pink;
+}
+
+nav ul li:hover {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/736x/91/a4/da/91a4dabf2bb28d25f984eded28301cf0--pink-fabric-girly-things.jpg');
+  background-size: cover;
+  text-shadow: 5px 0px 5px red;
 }
