@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: inline-block;
+  overflow: hidden;
+  display: fixed;
+  width: 100%;
+  background-color: lavender;
+  position: relative;
+  opacity: 0.8;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  font-size: 30px;
+  padding-left: 10px;
+}
