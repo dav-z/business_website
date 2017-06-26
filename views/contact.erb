@@ -1,7 +1,8 @@
 <h3 class="contacttitle">Contact Us!</h3>
-<form id="contactform">	
-	<input type="text" name="name" placeholder="Name"=><br>
-	<input type="text" name="email" placeholder="Email"><br>
-	<textarea type="text" name="comment" id="commentssection" placeholder="Comments or Questions"></textarea><br>
+<%# form uses POST method and submits to action of .contact %>
+<form id="contactform" method="POST">
+	<input type="text" name="email" placeholder="Email" /><br>
+	<input type="text" name="subject" placeholder="Subject" /><br>
+	<textarea type="text" name="body" id="commentssection" placeholder="Comments or Questions"></textarea><br>
 	<input type="submit" name="submit">
 </form>
