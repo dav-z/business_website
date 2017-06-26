@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: inline-block;
+  overflow: hidden;
+  display: fixed;
+  width: 100%;
+  background-color: lavender;
+  position: relative;
+  opacity: 0.8;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+#contactform {
+  text-align: center;
+}
+
+#contactform input {
+  width: 50%;
+}
+
+.contacttitle {
+  text-align: center;
+}
+
+#commentssection {
+  height: 300px;
+  vertical-align: top;
+  width: 50%;
+  resize: none;
+}
