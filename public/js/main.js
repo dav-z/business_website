@@ -17,10 +17,12 @@ $(document).ready(function () {
 $('#logopic').hide();
 $('#logopic').slideDown(2000);
 $('.homearticle').hide();
-$('.homearticle').slideDown(2000);
+$('.homearticle').slideDown(500);
 $('.questionsbody').hide();
-$('.questionsbody').slideDown(2000);
+$('.questionsbody').slideDown(500);
 $('#contactform').hide();
-$('#contactform').slideDown(2000);
+$('#contactform').slideDown(500);
 $('.aboutbody').hide();
-$('.aboutbody').slideDown(2000);
+$('.aboutbody').slideDown(500);
+$('.bodybody').hide();
+$('.bodybody').slideDown(500);

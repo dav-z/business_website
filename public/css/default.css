@@ -51,12 +51,13 @@ nav ul li a:visited {
 }
 #contactform {
   text-align: center;
+  padding-bottom: 30px;
 }
 #contactform input {
-  width: 50%;
+  width: 90%;
   background-color: pink;
 }
-.contacttitle {
+.contacttitle, .faqtitle, .abouttitle {
   text-align: center;
   color: coral;
   text-shadow: 5px 5px 5px lightsalmon;
@@ -64,11 +65,11 @@ nav ul li a:visited {
 #commentssection {
   height: 300px;
   vertical-align: top;
-  width: 50%;
+  width: 90%;
   resize: none;
   background-color: pink;
 }
-#logopic:hover, .faqtext:hover, .aboutbody:hover {
+#logopic:hover, .questionsbody:hover, .aboutbody:hover {
   background-image: url('http://dl.glitter-graphics.com/pub/707/707566g91mlkt7sm.gif');
   background-size: cover;
 }
@@ -94,7 +95,7 @@ textarea {
 }
 .homecontainer h1, .door {
   color: hotpink;
-  text-shadow: 2px 2px 2px pink;
+  text-shadow: 5px 5px 5px pink;
 }
 .homecontainer .homearticle {
   margin: 15px;
@@ -113,7 +114,13 @@ nav ul li:hover, .homearticle:hover, textarea:hover {
   text-shadow: 5px 0px 5px red;
 }
 .questionsbody, .aboutbody {
-  width: 50%;
+  width: 90%;
   margin: auto;
   padding: 5px;
+}
+.bodybody {
+  width: 50%;
+  margin: 50px auto;
+  border: 1px solid palegoldenrod;
+  background-color: cyan;
 }
