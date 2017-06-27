@@ -1,4 +1,8 @@
-body {
+* {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+}
+  body {
   background-image: linear-gradient(90deg, pink, aquamarine);
   background-size: cover;
   margin: 0;
@@ -9,9 +13,41 @@ body {
   background-size: cover;
   max-height: 10%;
   text-align: right;
+  width: 100%;
 }
 #logopic {
-  height: 100px;
+  max-width: 30%;
+}
+#car {
+  max-width: 3%;
+  position:relative;
+  right:0%;
+  -webkit-animation: caranimation 2s ease infinite;
+  /*-webkit-animation-iteration-count:infinite;*/
+  animation: caranimation 2s ease infinite;
+  /*animation-iteration-count:infinite;*/
+}
+@-webkit-keyframes carnanimation {
+  0% {
+    right: 0%;
+  }
+  50% {
+    right: 50%;
+  }
+  100% {
+    right: 0%;
+  }
+}
+@keyframes carnanimation {
+  0% {
+    right: 0%;
+  }
+  50% {
+    right: 50%;
+  }
+  100% {
+    right: 0%;
+  }
 }
 nav {
   display: inline-block;
@@ -57,7 +93,7 @@ nav ul li a:visited {
   resize: none;
   background-color: pink;
 }
-#logopic:hover, textarea:hover {
+#logopic:hover, .faqtext:hover {
   background-image: url('http://dl.glitter-graphics.com/pub/707/707566g91mlkt7sm.gif');
   background-size: cover;
 }
@@ -67,6 +103,10 @@ nav ul li a:visited {
   text-align: center;
   border: 1px solid palegoldenrod;
   background-color: cyan;
+}
+textarea {
+  font-size: 20px;
+  color: white;
 }
 .homecontainer img {
   height: 200px;
@@ -92,8 +132,15 @@ nav ul li a:visited {
   background-image: linear-gradient(45deg, #00ffc8, #ffc8ff);
   box-shadow: 2px 2px 2px green;
 }
-nav ul li:hover, .homearticle:hover {
+nav ul li:hover, .homearticle:hover, textarea:hover {
   background-image: url('https://s-media-cache-ak0.pinimg.com/736x/91/a4/da/91a4dabf2bb28d25f984eded28301cf0--pink-fabric-girly-things.jpg');
   background-size: cover;
   text-shadow: 5px 0px 5px red;
+}
+.questionsbody {
+  width: 50%;
+  margin: auto;
+}
+.faq {
+  text-align: center;
 }
