@@ -14,40 +14,15 @@
   max-height: 10%;
   text-align: right;
   width: 100%;
+  position: relative;
 }
 #logopic {
   max-width: 30%;
 }
 #car {
   max-width: 3%;
-  position:relative;
-  right:0%;
-  -webkit-animation: caranimation 2s ease infinite;
-  /*-webkit-animation-iteration-count:infinite;*/
-  animation: caranimation 2s ease infinite;
-  /*animation-iteration-count:infinite;*/
-}
-@-webkit-keyframes carnanimation {
-  0% {
-    right: 0%;
-  }
-  50% {
-    right: 50%;
-  }
-  100% {
-    right: 0%;
-  }
-}
-@keyframes carnanimation {
-  0% {
-    right: 0%;
-  }
-  50% {
-    right: 50%;
-  }
-  100% {
-    right: 0%;
-  }
+  position: absolute;
+  bottom: 0;
 }
 nav {
   display: inline-block;
