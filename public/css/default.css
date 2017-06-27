@@ -8,21 +8,38 @@
   margin: 0;
   padding: 0;
 }
-#logo {
+#logocontainer {
   background-image: linear-gradient(90deg, darksalmon, aliceblue);
   background-size: cover;
-  max-height: 10%;
-  text-align: right;
   width: 100%;
+  text-align: center;
+}
+#logo {
+  display: inline-block;
+  text-align: right;
   position: relative;
+  max-width: 60%;
+  right: 0;
 }
 #logopic {
-  max-width: 30%;
+  max-width: 40%;
 }
 #car {
   max-width: 3%;
   position: absolute;
   bottom: 0;
+}
+#phonenumber {
+  color: pink;
+  padding: 20px;
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  text-align: left;
+  max-width: 25%;
+  bottom: 0;
+  height: 100%;
+  text-shadow: #EEEE00 0 0 10px, #FF0000 5px 5px 5px;
 }
 nav {
   display: inline-block;
