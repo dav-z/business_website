@@ -1,6 +1,6 @@
 * {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-
+  cursor: url('http://i.imgur.com/CUjJQap.gif'), default;
 }
   body {
   background-image: linear-gradient(90deg, pink, aquamarine);
@@ -68,7 +68,7 @@ nav ul li a:visited {
   resize: none;
   background-color: pink;
 }
-#logopic:hover, .faqtext:hover {
+#logopic:hover, .faqtext:hover, .aboutbody:hover {
   background-image: url('http://dl.glitter-graphics.com/pub/707/707566g91mlkt7sm.gif');
   background-size: cover;
 }
@@ -112,9 +112,10 @@ nav ul li:hover, .homearticle:hover, textarea:hover {
   background-size: cover;
   text-shadow: 5px 0px 5px red;
 }
-.questionsbody {
+.questionsbody, .aboutbody {
   width: 50%;
   margin: auto;
+  padding: 5px;
 }
 .faq {
   text-align: center;
